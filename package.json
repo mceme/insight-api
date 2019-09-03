@@ -1,8 +1,8 @@
 {
-  "name": "@axerunners/insight-api",
-  "description": "An AXE blockchain REST and WebSocket API Service",
+  "name": "@mceme/insight-api",
+  "description": "An ImageCoin blockchain REST and WebSocket API Service",
   "version": "2.3.3",
-  "repository": "git://github.com/axerunners/insight-api.git",
+  "repository": "git://github.com/mceme/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,9 +38,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/axerunners/insight-api/issues"
+    "url": "https://github.com/mceme/insight-api/issues"
   },
-  "homepage": "https://github.com/axerunners/insight-api",
+  "homepage": "https://github.com/mceme/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -61,7 +61,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "async": "^2.6.2",
-    "@axerunners/axecore-lib": "^0.17.6",
+    "@mceme/imagecoin-lib": "^0.17.6",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "lodash": "^4.17.11",
