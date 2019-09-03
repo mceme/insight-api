@@ -6,7 +6,7 @@
 
 > An IMG blockchain REST and WebSocket API Service
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/axerunners/insight-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/mceme/insight-ui.
 
 ## Table of Content
 - [Install](#install)
