@@ -4,7 +4,7 @@
 [![NPM version](https://img.shields.io/npm/v/@axerunners/insight-api.svg)](https://npmjs.org/package/@axerunners/insight-api)
 [![API stability](https://img.shields.io/badge/stability-stable-green.svg)](https://nodejs.org/api/documentation.html#documentation_stability_index)
 
-> An AXE blockchain REST and WebSocket API Service
+> An IMG blockchain REST and WebSocket API Service
 
 This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/axerunners/insight-ui.
 
