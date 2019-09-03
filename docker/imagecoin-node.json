@@ -1,16 +1,16 @@
 {
   "network": "livenet",
-  "port": 3001,
+  "port": 3005,
   "services": [
-    "axed",
+    "ImageCoind",
     "web",
-    "@axerunners/insight-api"
+    "@mceme/insight-api"
   ],
   "servicesConfig": {
-    "axed": {
+    "ImageCoind": {
       "connect": [{
         "rpchost": "127.0.0.1",
-        "rpcport": 9337,
+        "rpcport": 6999,
         "rpcuser": "axerpc",
         "rpcpassword": "password",
         "zmqpubrawtx": "tcp://127.0.0.1:29998",
