@@ -53,14 +53,14 @@ This is a backend-only service. If you're looking for the web frontend applicati
 ## Install
 
 ```bash
-npm install -g @axerunners/axecore-node
-axecore-node create mynode
+npm install -g @mceme/imagecoin-node
+imagecoin-node create mynode
 cd mynode
-axecore-node install @axerunners/insight-api
-axecore-node start  # to also start the service
+imagecoin-node install @mceme/insight-api
+imagecoin-node start  # to also start the service
 ```
 
-The API endpoints will be available by default at: `http://localhost:3001/insight-api/`
+The API endpoints will be available by default at: `http://localhost:3005/insight-api/`
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ To protect the server, insight-api has a built-in query rate limiter. It can be 
 }
 ```
 
-With all the configuration options available: https://github.com/axerunners/insight-api/blob/master/lib/ratelimiter.js#L10-17
+With all the configuration options available: https://github.com/mceme/insight-api/blob/master/lib/ratelimiter.js#L10-17
 
 Or disabled entirely with:
 
@@ -99,7 +99,7 @@ Or disabled entirely with:
 Follow the install instructions above, and ...
 
 ```bash
-axecore-node start
+imagecoin-node start
 ```
 
 This will start the Insight-API listening on default port 3001.
