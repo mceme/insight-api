@@ -26,7 +26,7 @@ fi
 # Publish the npm module
 npm publish
 
-IMAGE_NAME="axerunners/insight-api"
+IMAGE_NAME="mceme/insight-api"
 
 # Build Docker image
 docker build -t "${IMAGE_NAME}:latest" \
