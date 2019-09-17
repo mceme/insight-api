@@ -11,7 +11,7 @@
       "connect": [{
         "rpchost": "127.0.0.1",
         "rpcport": 6999,
-        "rpcuser": "axerpc",
+        "rpcuser": "imgrpc",
         "rpcpassword": "password",
         "zmqpubrawtx": "tcp://127.0.0.1:29998",
         "zmqpubhashblock": "tcp://127.0.0.1:29998"
