@@ -1,9 +1,10 @@
 {
   "network": "livenet",
-  "port": 3005,
+  "port": 3003,
   "services": [
     "ImageCoind",
     "web",
+    "@mceme/insight-api",
     "@mceme/insight-api"
   ],
   "servicesConfig": {
