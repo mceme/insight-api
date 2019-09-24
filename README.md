@@ -60,17 +60,20 @@ sudo npm install mceme/insight-api
 imagecoin-node start  # to also start the service
 ```
 
-The API endpoints will be available by default at: `http://localhost:3005/insight-api/`
+The API endpoints will be available by default at: `http://localhost:3003/insight-api/`
 
 ### Prerequisites
 
-- [Axecore Node Axe 4.x](https://github.com/axerunners/axecore-node)
+- [Imgcore Node  4.x](https://github.com/mceme/imagecoin-node)
 
-**Note:** You can use an existing Axe data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` need to be enabled in `axe.conf`, as well as a few other additional fields.
+**Note:** You can use an existing img data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` need to be enabled in `axe.conf`, as well as a few other additional fields.
 
 ### Query Rate Limit
 
-To protect the server, insight-api has a built-in query rate limiter. It can be configurable in `axecore-node.json` with:
+To protect the server, insight-api has a built-in query rate limiter. It can be configurable in `imagecoin-node.json` copy to imagecoincore data directory with:
+
+https://github.com/mceme/insight-api/blob/master/docker/imagecoin-node.json
+
 
 ```json
 "servicesConfig": {
