@@ -53,10 +53,10 @@ This is a backend-only service. If you're looking for the web frontend applicati
 ## Install
 
 ```bash
-npm install -g @mceme/imagecoin-node
+sudo npm install -g mceme/imagecoin-node
 imagecoin-node create mynode
 cd mynode
-imagecoin-node install @mceme/insight-api
+sudo npm install mceme/insight-api
 imagecoin-node start  # to also start the service
 ```
 
