@@ -5,7 +5,7 @@
     "ImageCoind",
     "web",
     "@mceme/insight-api",
-    "@mceme/insight-api"
+    "@mceme/insight-ui"
   ],
   "servicesConfig": {
     "ImageCoind": {
