@@ -54,6 +54,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 ```bash
 sudo npm install -g mceme/imagecoin-node
+sudo npm install -g mceme/imagecoin-lib
 imagecoin-node create mynode
 cd mynode
 sudo npm install mceme/insight-api
