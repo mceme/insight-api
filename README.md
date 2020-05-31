@@ -53,7 +53,8 @@ This is a backend-only service. If you're looking for the web frontend applicati
 ## Install
 
 ```bash
-sudo npm install -g mceme/imagecoin-node
+git clone https://github.com/mceme/imagecoin-node
+cd imagecoin-node
 sudo npm install --unsafe-perm=true --allow-root
 sudo npm install zeromq  --unsafe-perm=true --allow-root
 sudo npm install mceme/imagecoin-lib
@@ -61,10 +62,7 @@ sudo npm install mceme/imagecoin-rpc
 sudo npm install mceme/imagecoin-p2p
 sudo npm install mceme/insight-api
 sudo npm install mceme/insight-ui
-imagecoin-node create mynode
-cd mynode
-sudo npm install mceme/insight-api
-imagecoin-node start  # to also start the service
+./bin/imagecoin-node start
 ```
 
 The API endpoints will be available by default at: `http://localhost:3003/insight-api/`
