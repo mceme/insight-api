@@ -80,6 +80,47 @@ cd..
 
 imagecoin-node start
 ```
+```
+{
+  "network": "livenet",
+  "port": 3004,
+  "services": [
+    "ImageCoind",
+     "web",
+     "@mceme/insight-ui",
+     "@mceme/insight-api"
+     ],
+  "servicesConfig": {
+   "@mceme/insight-ui": {
+      "routePrefix": "img-insight",
+      "apiPrefix": "img-insight-api"
+    },
+    "@mceme/insight-api": {
+      "routePrefix": "img-insight-api",
+      "rateLimiterOptions": {
+        "whitelistLimit": 9999999,
+        "limit": 200,
+        "interval": 60000,
+        "banInterval": 3600000
+      }
+    },
+    "ImageCoind": {
+      "spawn": {
+        "datadir": "/root/.imagecoincore",
+        "exec": "/root/ImageCoind"
+      },
+     "connect":
+        {
+          "rpchost": "127.0.0.1",
+          "rpcport": 6999,
+          "rpcuser": "username",
+          "rpcpassword": "xxxxx",
+          "zmqpubrawtx": "tcp://127.0.0.1:28332"
+        }
+    }
+  }
+}
+```
 
 The API endpoints will be available by default at: `http://localhost:3003/insight-api/`
 
@@ -87,7 +128,7 @@ The API endpoints will be available by default at: `http://localhost:3003/insigh
 
 - [Imgcore Node  4.x](https://github.com/mceme/imagecoin-node)
 
-**Note:** You can use an existing img data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` need to be enabled in `axe.conf`, as well as a few other additional fields.
+**Note:** You can use an existing img data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` need to be enabled in `imagecoin.conf`, as well as a few other additional fields.
 
 ### Query Rate Limit
 
